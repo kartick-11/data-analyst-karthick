@@ -50,13 +50,16 @@ The dataset includes detailed park information, such as:
 - **Facilities Availability**: Create pie charts for the proportion of parks with different features.  
   ![Facilities Availability](Faci_dist_pie.png)
 
+- **Visitor Engagement by Amenities**: Bar charts comparing visitor counts for parks with and without key amenities.
+
 ### 5. Geospatial Visualization  
 - Use geospatial data to map the distribution of parks across Vancouver.  
   ![Geospatial Visualization](Dist_map.png)
 
 ### 6. Analysis of Parks with All Three Features  
 - Focus on parks offering washrooms, facilities, and special features.  
-- **Key Insight**: Parks with all three amenities attract fewer but more engaged visitors (5,981 visits out of 122,936 total).
+- **Key Insight**: Parks with all three amenities attract fewer but more engaged visitors (5,981 visits out of 122,936 total).  
+  ![Parks with All Three Features](all_3.png)
 
 ---
 
