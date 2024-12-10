@@ -201,6 +201,7 @@ The analysis will utilize the following datasets:
 - Conduct an analysis of neighborhoods with lower visitation to see if socio-economic factors or other regional issues contribute to the decline.
 
 ![Root Cause Analysis](rt_cse_anlys.png)
+![Root Cause Analysis](rt_cse_2.png)
 
 ### 5. Segmentation Analysis
 - Segment parks based on their characteristics (e.g., size, amenities) to determine whether certain types of parks attract more visitors than others.
