@@ -188,17 +188,25 @@ The analysis will utilize the following datasets:
 - Analyze trends in park visitation over time to identify periods with the most significant decline in visitor numbers.
 - Examine park characteristics to identify which attributes correlate with higher or lower visitor counts.
 
+![Trend Analysis](trnd_anlys.png)
+
 ### 3. Correlation Analysis
 - Identify correlations between park size, facilities, and visitor count.
 - Use statistical methods like regression analysis to determine how these factors contribute to higher or lower park engagement.
+
+![Correlation Analysis](Crltn_anlys.png)
 
 ### 4. Root Cause Analysis
 - Investigate external factors such as park location and accessibility.
 - Conduct an analysis of neighborhoods with lower visitation to see if socio-economic factors or other regional issues contribute to the decline.
 
+![Root Cause Analysis](rt_cse_anlys.png)
+
 ### 5. Segmentation Analysis
 - Segment parks based on their characteristics (e.g., size, amenities) to determine whether certain types of parks attract more visitors than others.
 - Analyze visitor patterns to identify specific groups (e.g., families, tourists) who may have different preferences and visitation habits.
+
+![Segmentation Analysis](seg-anlys.png)
 
 ### 6. Synthesis of Findings
 - Integrate quantitative (visitor data) and qualitative (facility analysis, neighborhood data) information to uncover key factors influencing park visits.
@@ -218,4 +226,3 @@ The analysis will utilize the following datasets:
 - **Expected completion**: 6 weeks from project initiation, including check-ins with stakeholders (e.g., park management or local government) to validate insights and adjust strategies.
 
 This diagnostic analysis will provide park management with the insights needed to address visitor decline, improve resource allocation, and optimize the use of Vancouver’s green spaces.
-
