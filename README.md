@@ -156,3 +156,66 @@ The dataset contains detailed information about parks in Vancouver, including:
 - **Jupyter Notebook**: Includes data enrichment, descriptive statistics, visualizations, and detailed insights.
 - **Presentation**: Summarizes findings with key visualizations for stakeholders.
 
+# Diagnostic Analysis
+
+## Project Description
+**Investigating the Causes of Visitor Decline at Vancouver Parks**  
+The primary goal of this project is to conduct a diagnostic analysis to identify potential factors contributing to visitor decline in Vancouver's parks. By analyzing various datasets, we aim to uncover key patterns and trends that may explain why certain parks experience lower visitor counts and offer actionable insights for improving park utilization and visitor engagement.
+
+## Project Title
+**Investigating the Causes of Visitor Decline at Vancouver Parks**
+
+## Objective
+The objective of this project is to identify factors influencing lower visitor counts in certain Vancouver parks. This analysis will focus on variables such as park features, location, amenities, and visitor engagement. Insights from this analysis will support park management in developing strategies to enhance park usage, improve resource allocation, and better meet the needs of visitors.
+
+## Background
+Vancouver’s parks are a vital part of the city’s green spaces, but there has been a noticeable variation in visitor counts across different parks. This diagnostic analysis will investigate possible causes of this variation, focusing on park attributes, facilities, and external factors such as location and accessibility.
+
+## Dataset
+The analysis will utilize the following datasets:
+- **Park Data**: Information about each park including park size, facilities, special features, and neighborhood location.
+- **Visitor Data**: Enriched data with the total number of visits to each park over a set period.
+- **Geospatial Data**: Geographic location and mapping details for visualizing park distribution.
+- **Facilities Data**: Information on park amenities such as washrooms, playgrounds, picnic areas, and special features.
+
+## Methodology
+
+### 1. Data Collection and Preparation
+- Consolidate the dataset containing park details and visitor data.
+- Clean and preprocess the data by handling missing values, correcting inconsistencies, and normalizing the dataset for analysis.
+
+### 2. Trend Analysis
+- Analyze trends in park visitation over time to identify periods with the most significant decline in visitor numbers.
+- Examine park characteristics to identify which attributes correlate with higher or lower visitor counts.
+
+### 3. Correlation Analysis
+- Identify correlations between park size, facilities, and visitor count.
+- Use statistical methods like regression analysis to determine how these factors contribute to higher or lower park engagement.
+
+### 4. Root Cause Analysis
+- Investigate external factors such as park location and accessibility.
+- Conduct an analysis of neighborhoods with lower visitation to see if socio-economic factors or other regional issues contribute to the decline.
+
+### 5. Segmentation Analysis
+- Segment parks based on their characteristics (e.g., size, amenities) to determine whether certain types of parks attract more visitors than others.
+- Analyze visitor patterns to identify specific groups (e.g., families, tourists) who may have different preferences and visitation habits.
+
+### 6. Synthesis of Findings
+- Integrate quantitative (visitor data) and qualitative (facility analysis, neighborhood data) information to uncover key factors influencing park visits.
+- Identify opportunities for targeted improvements based on the analysis, such as enhancing amenities in less-visited parks or improving park accessibility in certain neighborhoods.
+
+## Tools and Technologies
+- **Data analysis tools**: Python (Pandas, Matplotlib, Seaborn), R for metrics calculation and trend analysis.
+- **Geospatial analysis tools**: GeoPandas and Shapely for mapping park locations and analyzing spatial patterns.
+- **Data visualization tools**: Tableau for interactive dashboards and clear visual representation of findings.
+
+## Deliverables
+- **Diagnostic Report**: A detailed report summarizing the methodology, analysis, and confirmed factors contributing to the decline in park visits.
+- **Visualizations**: Clear visualizations such as heatmaps, bar charts, and scatter plots to illustrate trends and patterns.
+- **Actionable Recommendations**: Strategic recommendations for improving park management, focusing on increasing visitor engagement through targeted park improvements or marketing efforts.
+
+## Timeline
+- **Expected completion**: 6 weeks from project initiation, including check-ins with stakeholders (e.g., park management or local government) to validate insights and adjust strategies.
+
+This diagnostic analysis will provide park management with the insights needed to address visitor decline, improve resource allocation, and optimize the use of Vancouver’s green spaces.
+
