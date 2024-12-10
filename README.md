@@ -137,6 +137,7 @@ The dataset contains detailed information about parks in Vancouver, including:
 
 ### 6. Analysis of Parks with All Three Features
 - Focused analysis on parks with **Washrooms**, **Facilities**, and **Special Features**.
+  ![Parks with All Three Features](all_3_pie.png)
 - **Total Visits**: Of 122,936 visits, 5,981 were to parks with all three amenities.
 - **Key Insight**: Parks with comprehensive features attract fewer but more engaged visitors.
 
