@@ -20,8 +20,6 @@ The dataset includes detailed park information, such as:
 - **Number_of_Visits**: Enriched visitor count data.
 - **GoogleMapDest**: Location coordinates for mapping.
 
----
-
 ## Methodology
 
 ### 1. Data Collection and Preparation  
@@ -83,6 +81,7 @@ The dataset includes detailed park information, such as:
 ## Deliverables  
 - **Jupyter Notebook**: Contains data enrichment steps, descriptive statistics, visualizations, and detailed insights.  
 - **Presentation**: Summarizes findings with key visualizations for stakeholders, offering actionable recommendations.
+---
 
 # Descriptive Analysis
 
@@ -155,6 +154,7 @@ The dataset contains detailed information about parks in Vancouver, including:
 ## Deliverables
 - **Jupyter Notebook**: Includes data enrichment, descriptive statistics, visualizations, and detailed insights.
 - **Presentation**: Summarizes findings with key visualizations for stakeholders.
+---
 
 # Diagnostic Analysis
 
