@@ -226,4 +226,76 @@ The analysis will utilize the following datasets:
 ## Timeline
 - **Expected completion**: 6 weeks from project initiation, including check-ins with stakeholders (e.g., park management or local government) to validate insights and adjust strategies.
 
-This diagnostic analysis will provide park management with the insights needed to address visitor decline, improve resource allocation, and optimize the use of Vancouver’s green spaces.
+
+- This diagnostic analysis will provide park management with the insights needed to address visitor decline, improve resource allocation, and optimize the use of Vancouver’s green spaces.
+
+---
+
+## Data Wrangling for Investigating Visitor Decline at Vancouver Parks on AWS
+
+### Project Title:
+**Data Wrangling for Investigating Visitor Decline at Vancouver Parks using AWS**
+
+### Objective:
+The objective of this project is to leverage AWS cloud services to perform comprehensive data wrangling and prepare a robust dataset for analyzing the causes of visitor decline in Vancouver parks. By cleaning, transforming, and consolidating data from various sources on AWS, this process aims to enhance the accuracy, consistency, and usability of park and visitor data for subsequent analysis.
+
+### Background:
+Vancouver’s parks are essential to the city’s recreational infrastructure. However, a significant variation in park visitation exists, with certain parks experiencing noticeable declines. The data wrangling process will be performed on AWS to handle large datasets from different sources efficiently and to prepare them for deeper analysis.
+
+### Dataset:
+The data wrangling process will involve datasets such as:
+- **Park Data**: Contains park-specific details like park size, facilities, special features, and neighborhood location.
+- **Visitor Data**: Information on visitor counts over a set period.
+- **Geospatial Data**: Location data for mapping and spatial analysis.
+- **Neighborhood Data**: Demographics of the neighborhoods surrounding the parks.
+
+### Methodology:
+
+#### 1. **Data Collection** on AWS:
+- **AWS S3 (Simple Storage Service)**: Store raw datasets (park, visitor, geospatial, and neighborhood data) in S3 buckets, providing scalable, secure, and durable cloud storage.
+  - Example: Use S3 buckets to store CSV or Excel files containing park details and visitor data.
+- **AWS Glue**: Use AWS Glue to catalog and prepare data for extraction, transformation, and loading (ETL). AWS Glue automatically discovers the data structure in S3 and makes it available for analysis.
+- **AWS RDS (Relational Database Service)**: If data is stored in relational databases (e.g., MySQL or PostgreSQL), use AWS RDS to query and access it for further wrangling.
+
+#### 2. **Data Assessment** on AWS:
+- **AWS Glue Data Catalog**: Use AWS Glue’s Data Catalog to store metadata and track schema versions for different datasets. This will help assess and manage the data's structure.
+- **AWS Athena**: Use Amazon Athena, a serverless interactive query service, to quickly run SQL queries against data stored in Amazon S3 without moving it. Perform initial assessments like counting rows, identifying missing values, and checking for duplicates.
+
+#### 3. **Data Cleaning** on AWS:
+- **AWS Glue ETL Jobs**: Use AWS Glue to clean the data by performing operations like removing duplicates, correcting inconsistencies, and handling missing values. Automate these processes with Python or Scala-based ETL scripts.
+  - Example: Removing duplicate park entries, handling missing visitor counts (e.g., imputation using monthly averages), and standardizing categorical data.
+- **AWS Glue**: Use Glue for advanced data cleaning tasks, such as data type conversions (e.g., converting timestamps to datetime) and feature engineering.
+
+#### 4. **Data Transformation** on AWS:
+- **AWS Glue**: Utilize built-in transformations like `apply_mapping` and `filter` to convert data types and create new features.
+  - Example: Converting visitor timestamps to datetime objects or calculating park size from input data.
+- **Amazon SageMaker**: Apply advanced feature engineering if required, such as predicting missing values or enhancing data features using machine learning models.
+
+#### 5. **Data Consolidation** on AWS:
+- **AWS Glue**: Consolidate datasets into a unified database by joining and merging data from S3, RDS, and other sources using unique identifiers (e.g., park IDs).
+- **AWS Athena**: Create a unified view by querying the cleaned and transformed data stored in S3.
+- **AWS S3**: Save the consolidated dataset in S3 for further analysis.
+
+#### 6. **Documentation and Validation** on AWS:
+- **AWS Glue Data Catalog**: Document steps like transformations and cleaning methods, using Glue's metadata repository for better tracking and validation.
+
+### Tools and Technologies on AWS:
+- **Data Storage**: Amazon S3, AWS RDS (for relational data).
+- **Data Processing and Transformation**: AWS Glue (for ETL), Amazon SageMaker (for advanced feature engineering).
+- **Data Querying**: Amazon Athena (serverless querying).
+- **Data Documentation**: AWS Glue Data Catalog (for metadata management and documentation).
+
+### Deliverables:
+- **Cleaned and Transformed Dataset**: A consolidated dataset stored in S3, ready for analysis in formats like CSV, Parquet, or JSON.
+- **Documentation**: A detailed report of the data wrangling process, including challenges faced, methods used, and characteristics of the final dataset.
+
+### Timeline:
+- **Week 1-2**: Data collection from various sources (S3, RDS, etc.), data assessment using Athena and Glue Data Catalog.
+- **Week 3-4**: Data cleaning, handling missing values, and transforming data using AWS Glue.
+- **Week 5**: Data consolidation in AWS Glue, storing the final dataset in S3.
+- **Week 6**: Validation and documentation.
+
+---
+
+### Conclusion:
+By leveraging AWS cloud services for the data wrangling process, this project efficiently cleans, transforms, and consolidates data from multiple sources. The result is a robust, high-quality dataset ready for advanced analysis. AWS services like S3, Glue, and Athena ensure scalability, automation, and efficiency in preparing actionable insights for understanding and addressing visitor decline in Vancouver parks.
